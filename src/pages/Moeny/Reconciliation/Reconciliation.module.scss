@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box1 {
+  margin: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  >ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    >li {
+      margin: 10px;
+      width: calc(100% / 4 - 20px);
+      list-style: none;
+      display: flex;
+      align-items: center;
+      >span{
+        font-size: 14px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+.btnArr{
+  margin: 20px 10px;
+  padding-bottom: 20px;
+  >button{
+  margin:  0 10px;
+  }
+}
+
+.date{
+  width: 270px;
+}
+.tab{
+  margin: 20px;
+}
+
+.paginations{
+  margin: 20px;
+}

@@ -1,0 +1,24 @@
+.pieChartBox{
+
+    .echartsTitle{
+        padding: 6px 10px;
+        margin-left: 10px;
+        line-height: 35px;
+        height: 45px;
+    }
+    .echartsContent{
+        padding: 20px;
+        background-color: white;
+        // border-top: 1px solid lightgray;
+        // border-bottom: 1px solid lightgray;
+        display: flex;
+        justify-content: space-between;
+        #pieBtn,#barBtn{
+            margin-left: -12%;
+        }
+        #headerPieChart,#headerBarChart{
+            margin: 30px;
+        }
+       
+    }
+}

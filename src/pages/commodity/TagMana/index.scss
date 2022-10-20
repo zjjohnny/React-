@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+.tag-content-contatner {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0 0 10px;
+    border-radius: 5px;
+
+    .first-line {
+        display: flex;
+
+        .tag-search-box {
+            width: 330px;
+            padding: 5px 10px;
+            font-size: 14px;
+            color: #333333;
+            border: 1px solid #E4E4E4;
+            border-radius: 2px;
+            margin-right: 20px;
+
+            input {
+                border: none;
+                margin-left: 10px;
+                width: 242px;
+                padding: 2px 5px;
+            }
+        }
+    }
+
+    .second-line {
+        margin-top: 10px;
+
+        button {
+            font-size: 14px;
+            margin-right: 5px;
+        }
+    }
+}
+
+.tag-table-box {
+    background-color: white;
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 5px;
+
+    .table-data {
+        table {
+            font-size: 14px;
+
+            .ant-btn>span:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .footer {
+        position: relative;
+        margin-top: 20px;
+
+        .totalCount {
+            position: absolute;
+            font-size: 14px;
+            color: #999999;
+            right: 0px;
+            bottom: 0px;
+        }
+    }
+
+    .ant-table-tbody>tr>td {
+        padding: 5px 16px;
+    }
+    .ant-form-item-label>label {
+        font-size: 14px;
+    }
+    .ant-btn span {
+        font-size: 14px;
+    }
+    .ant-form-item .rule-box p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .pic-box {
+        float: left;
+    }
+    .rule-box {
+        float: left;
+    }
+}

@@ -1,0 +1,56 @@
+.my-input{
+    width:99%;
+    margin-left: 1%;
+    margin-top: 20px;
+    background-color: white;
+}
+.myinp{
+    display: flex;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+}
+.sele{
+    // margin-left: 1.5%;
+    border: 1px solid black solid rgb(181, 180, 180);
+    height: 40px; 
+    width: 380px;
+}
+.searchbox{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    .mytext{
+        font-size: 14px;       
+    }
+}
+.mysele{
+    margin-left: 26%;
+    margin-top: -40px;
+    border: 1px solid black solid rgb(181, 180, 180);
+    height: 40px; 
+    width: 380px;
+}
+.search-box{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    select {
+        border: none;
+        margin-left: 20px;
+        width: 180px;
+    }
+}
+
+.btn{
+    margin-left: 1.5%;
+    margin-top: 20px;
+}
+.btn>button{
+    margin-right: 20px;
+}
+.mytabs{
+    background-color: white;
+    height: 400px;
+    margin-top: 70px;
+    // border: 1px solid black solid black;
+}

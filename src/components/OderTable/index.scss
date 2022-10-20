@@ -1,0 +1,17 @@
+.container-T {
+  margin: 20px;
+  height: 480px;
+  background-color: white;
+  padding: 10px;
+  .ant-tabs-tab:hover, :after, :before{
+    color: red;
+    border-color: red;
+}
+// .ant-tabs-ink-bar {
+//   color: red;
+//   border-color: red;
+// }
+
+}
+
+

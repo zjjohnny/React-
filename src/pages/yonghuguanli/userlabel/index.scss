@@ -1,0 +1,31 @@
+.myheader{
+  margin: 1.5% 1.5% 0;
+  background-color: white;
+  padding: 1% 1%;
+}
+.myheader Button{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+}
+.formBox{
+  width: 370px;
+  margin-bottom: 20px;
+}
+.formBox .myInpt{
+  width: 330px;
+}
+.myheader Button:hover{
+  color: red;
+  border-color: red;
+}
+.myheader .muBox{
+  color: red;
+  border-color: red;
+}
+.mytabs{
+  margin: 1.5% 1.5% 0;
+  background-color: white;
+  height: 100%;
+  padding: 1% 1%;
+}

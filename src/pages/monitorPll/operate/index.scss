@@ -1,0 +1,181 @@
+.operateBox{
+    padding: 10px;
+
+
+    .operateBox-head-title{
+        padding: 10px;
+        border-bottom: 1px solid lightgray;
+    }
+    .operateBox-top-tilte{
+        font-size: 16px;
+        color: black;
+        margin-left: 10px;
+    }
+
+    .operateBox-top{
+        display: flex;
+        height: 300px;
+        .operateBox-todayData{
+            width: 70%;
+            background-color: white;
+        }
+        
+        .operateBox-time{
+            font-size: 14px;
+            color: gray;
+            margin-left: 10px;
+        }
+        .operateBox-topData{
+            padding: 10px;
+            justify-content: space-around;
+            display: flex;
+            flex-wrap: wrap;
+            .operateBox-itemIcon{
+                width: 30%;
+                margin: 20px 0;
+                display: flex;
+                align-items: center;
+                .operateBox-itemData{
+                    margin-left: 10px;
+                }
+
+                .dataPrice{
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+            }
+        }
+        // 运营快捷入口
+        .operateBox-into{
+            width: 35%;
+            background-color: white;
+            margin-left: 10px;
+
+            .operateBox-intoBox{
+                margin: 32px 5px;
+                // display: flex;
+                // flex-wrap: wrap;
+                // justify-content: space-around;
+                align-items: center;
+                .intoBox1{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    .operateBox-intoItem{
+                        cursor: pointer;
+                        padding: 25px 10px;
+                        border-radius: 2px;
+                        background-color: rgb(245, 245, 245);
+                        margin: 5px 10px;
+                    }
+                }
+                
+
+                .operateBox-intoItem:hover{
+                    border-style: none;
+                    color: red;
+                    border-bottom: 2px solid red;
+                }
+            }
+        }
+    }
+
+    .operateBox-center{
+        display: flex;
+
+        .operateBox-centerLeft{
+            width: 80%;
+// 待办事项
+            .todo{
+                margin-top: 20px;
+                background-color: white;
+                height: 200px;
+                .todoContent{
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .todoContent-item{
+                        cursor: pointer;
+                        width: 50%;
+                        font-size: 14px;
+                        height: 30px;
+                        padding: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .todoContent-item:hover{
+                        color: red;
+                    }
+                }
+            }
+// 订单统计
+            .orderStatistic,.tradeStatistic{
+                margin-top: 20px;
+                background-color: white;
+                height: 300px;
+
+                // .orderStatistic-title{
+                //     display: flex;
+                //     justify-content: space-between;
+                //     padding: 10px;
+                //     border-bottom: 1px solid lightgray;
+                // }
+                // .timeSelect>span{
+                //     margin-right: 10px;
+                //     cursor: pointer;
+                // }
+                // .order-checked{
+                //     color: red;
+                // }
+                
+            }
+        }
+        
+        .operateBox-centerRight{
+            margin-left: 10px;
+            width: 40%;
+            // 商品销量排行
+            // .goodsRank{
+            //     margin-top: 20px;
+            //     background-color: white;
+            //     height: 410px;
+
+            //     .goodsRank-title{
+            //         display: flex;
+            //         justify-content: space-between;
+            //         padding: 10px;
+            //         border-bottom: 1px solid lightgray;
+
+            //         .timeSelect>span{
+            //             margin-right: 10px;
+            //         }
+            //         .timeSelect:nth-child(1){
+            //             color: red;
+            //         }
+            //     }
+            //     .goodsRank-content{
+            //         display: flex;
+            //         flex-direction: column;
+            //         margin-top: 10px;
+            //         .goodsRank-contentItem{
+            //             margin: 5px 10px;
+            //             display: flex;
+            //             flex-wrap: nowrap;
+            //             justify-content: space-between;
+            //             .contentItem-num{
+            //                 display: inline-block;
+            //                 margin-right: 20px;
+            //                 text-align: center;
+            //                 width: 20px;
+            //                 height: 20px;
+            //                 border-radius: 10px;
+            //                 background-color: lightgray;
+            //             }
+            //         }
+            //     }
+                
+            // }
+        }
+
+    }
+}

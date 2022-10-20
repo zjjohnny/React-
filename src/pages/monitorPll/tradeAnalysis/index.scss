@@ -1,0 +1,96 @@
+.tradeAnalysisBox{
+    padding: 10px;
+
+    .analysisEchartsBox{
+        // width: 100%;
+        .echartsTitle{
+            padding: 6px 10px;
+            margin-left: 10px;
+            line-height: 35px;
+            height: 45px;
+        }
+        .echartsContent{
+            padding-left: 20px;
+            width: 100%;
+            background-color: white;
+            border-top: 1px solid lightgray;
+            border-bottom: 1px solid lightgray;
+    
+            .ant-tabs-tab-active{
+                color: red;
+            }
+        }
+    }
+
+    .analysisTableBox{
+
+        .tableTitle{
+            padding: 6px 10px;
+            margin-left: 10px;
+            line-height: 35px;
+            height: 45px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .tableContent{
+            .ant-table-thead{
+    
+                background-color: white;
+            }
+        }
+    }
+
+    .analysisHeader1{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        // border-bottom: 1px solid lightgray;
+        
+        .analysisHeader-title{
+            font-size: 16px;
+            color: black;
+            margin-left: 10px;
+        }
+    }
+    
+    .analysisHeader2{
+        padding: 6px 10px;
+        margin-left: 10px;
+        height: 45px;
+        line-height: 35px;
+    }
+    .analysisHeader3{
+        height: 180px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        // border-top: 1px solid lightgray;
+        // border-bottom: 1px solid lightgray;
+        .headerItem{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 0 40px;
+            .itemData{
+                font-size: 40px;
+                font-weight: bold;
+            }
+    
+        }
+    }
+    
+    
+    // hover提示框
+    .analysisHeader-tip{
+        width: 400px;
+        font-size: 12px;
+    
+        .analysisHeader-tipP{
+            padding-bottom: 8px;
+            border-bottom: 1px solid lightgray;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.stock-conrtent-contatner {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 10px 0 10px;
+    border-radius: 5px;
+
+    .first-line,.second-line {
+        display: flex;
+
+        .stock-search-box {
+            width: 280px;
+            padding: 0 10px;
+            font-size: 14px;
+            color: #333333;
+            border: 1px solid #E4E4E4;
+            border-radius: 2px;
+            margin-right: 20px;
+            line-height: 30px;
+
+            input,
+            select {
+                border: none;
+                margin-left: 10px;
+                width: 190px;
+            }
+            .ant-picker-range {
+                margin-left: 5px;
+                width: 95px;
+            }
+        }
+    }
+
+    .second-line {
+        margin-top: 10px;
+    }
+
+    .third-line {
+        margin-top: 10px;
+
+        button {
+            font-size: 14px;
+            margin-right: 5px;
+        }
+    }
+}
+
+.stock-tabs-box {
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    .ant-tabs-top>.ant-tabs-nav {
+        margin: 0;
+    }
+    .stock-table-box {
+        .stock-table-data {
+            table {
+                font-size: 14px;
+    
+                .ant-btn>span:hover {
+                    text-decoration: underline;
+                }
+    
+                .ant-btn>span {
+                    font-size: 14px;
+                    color: black;
+                }
+            }
+        }
+    
+        .footer {
+            position: relative;
+            margin-top: 20px;
+    
+            .totalCount {
+                position: absolute;
+                font-size: 14px;
+                color: #999999;
+                right: 0px;
+                bottom: 0px;
+            }
+        }
+    
+        .ant-table-tbody>tr>td {
+            padding: 5px 16px;
+        }
+    }
+}
+
+
+.conrtent-contatner .first-line .search-box .ant-picker-input input {
+    width: 40px;
+    border: none;
+}

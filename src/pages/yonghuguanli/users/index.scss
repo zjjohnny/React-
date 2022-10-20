@@ -1,0 +1,40 @@
+[data-theme='compact'] .ant-advanced-search-form,
+.ant-advanced-search-form {
+  padding: 23px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+[data-theme='compact'] .ant-advanced-search-form .ant-form-item,
+.ant-advanced-search-form .ant-form-item {
+  display: flex;
+}
+
+[data-theme='compact'] .ant-advanced-search-form .ant-form-item-control-wrapper,
+.ant-advanced-search-form .ant-form-item-control-wrapper {
+  flex: 1;
+}
+.search-result-list{
+  margin-top: 20px;
+  padding: 23px;
+  background: #fffdfd;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+}
+.usersbox{
+  padding: 10px;
+
+}
+.shijian{
+  width: 95%;
+  height: 40px;
+}
+.btn.Button{
+  margin-left: 1.2%;
+  margin-top: 20px;
+}
+// .site-button-ghost-wrapper {
+//   padding: 26px 16px 16px;
+//   background: rgb(190, 200, 200);
+// }

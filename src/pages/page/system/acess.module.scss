@@ -1,0 +1,62 @@
+.acessbox>div>div {
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  // margin: 0;
+}
+
+.acessbox>div {
+  background-color: white;
+  margin: 20px;
+
+  p {
+    margin-right: 130px;
+    margin: 10px 20px;
+
+    >span {
+      color: rgb(214, 100, 100);
+      padding: 0 3px;
+    }
+  }
+}
+
+.acessbox>div>div:last-child {
+  width: 100%;
+  // display: flex;
+  // justify-content: space-between;
+
+  button {
+    margin: 5px;
+  }
+}
+
+
+.table {
+  width: 100%;
+  padding-right: 20px;
+  // text-align: center;
+}
+.inputitem{
+  width: 40% !important;
+  display: flex;
+  
+ >div{
+  margin-left: 30px;
+  width: 400px;
+ };
+ >input{
+  width: 300px !important;
+  display: block;
+ }
+}
+
+.inputaa{
+  width: 300px !important;
+}
+
+.paginations{
+  background-color: white;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,53 @@
+.titel {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background: #34a3d6;
+
+  >div {
+    display: flex;
+    justify-content: center;
+    // 对内联样式不起作用
+    align-items: center;
+  }
+
+  >div:nth-child(2) {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+  }
+
+  >div:first-child {
+    margin-left: 20px;
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #000000;
+      margin: 0 2px;
+    }
+  }
+}
+
+.rigth {
+  margin-right: 20px;
+
+  >p {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  >p:last-child {
+    cursor: pointer;
+  }
+}
+
+.img {
+  height: 40px;
+  width: 40px;
+  // background-color: red;
+  // padding-right: 10px;
+  margin-right: 10px;
+}

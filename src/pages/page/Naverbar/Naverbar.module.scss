@@ -1,0 +1,27 @@
+.menu {
+  width: 256px;
+  height: calc(100vh - 70px);
+  // background-color: rgb(97, 90, 90);
+  overflow-y: auto;
+}
+
+.menu::-webkit-scrollbar {
+  /* 纵向滚动条的宽 */
+  width: 8px;
+  /* 横向滚动条的高 */
+  height: 8px;
+  /* border: 2px solid red; */
+  // background-color: pink;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #1890ff;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+}
+
+.menu::-webkit-scrollbar-thumb:hover {
+  background-clip: border-box;
+}
+

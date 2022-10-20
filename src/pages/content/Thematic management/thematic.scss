@@ -1,0 +1,33 @@
+
+.header{
+    margin:1% 1% 0;
+    padding:1.5% 1.5%;
+    width: 98%;
+    height: 150px;
+    background-color: white;
+}
+.header Form{
+    width: 380px;
+}
+.header Button{
+    color: #8f8e8f;
+    border-color: #8f8e8f;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+}
+.header Button:hover{
+    color:red;
+    border-color: red;
+}
+.main{
+    background-color: white;
+    margin:30px 1% 0;
+    padding:1.5% 1.5%;
+    width: 98%;
+}
+.main Table{
+    text-align: center;
+}

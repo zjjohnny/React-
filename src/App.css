@@ -1,0 +1,47 @@
+@import '~antd/dist/antd.css';
+* {
+  padding: 0;
+  margin: 0;
+}
+.box1 {
+  /* margin: 40px 20px; */
+  display: flex;
+  /* height: 100vh; */
+  /* 滚动条 */
+  /* overflow: auto; */
+
+}
+.content{
+  min-width: 800px;
+}
+.box2 {
+  min-width: 800px;
+  /* margin: 20px 10px; */
+  background-color: rgba(247, 247, 247, 1);
+  width: calc(100vw - 237px);
+  height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.box {
+  display: flex;
+
+}
+.bar{
+  width: 237px;
+}
+
+.box1>.ant-menu {
+  /* menu背景 */
+  background-color: #d4e3eb;
+
+
+}
+
+.box1 .ant-menu-title-content, .ant-menu-item-icon {
+  color: #032541;
+}
+
+.box1 .ant-menu-sub{
+  background-color: aqua;
+}

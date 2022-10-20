@@ -1,0 +1,91 @@
+.ztput{
+    border: 1px rgba(218, 217, 217, 0.793) solid;
+    width: 80px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+   
+}
+.ztputa{
+    border: 1px rgba(218, 217, 217, 0.793) solid;
+    width: 80px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+   
+}
+.putbj{
+    width: 80%;
+    height: 200px;
+    float: left;
+    position: absolute;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.btna{
+    float: left;
+    position: absolute;
+    color:   rgb(167, 165, 165);
+    border: 1px rgb(167, 165, 165) solid;
+    width: 80px;
+    height: 37px;
+    margin-top: -200px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.btna:hover{
+    color: red;
+    border-color: red;
+}
+.btnb{
+    float: left;
+    position: absolute;
+    color:   rgb(167, 165, 165);
+    border: 1px  rgb(167, 165, 165) solid;
+    width: 80px;
+    height: 37px;
+    margin-top: -200px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: 130px;
+    cursor: pointer;
+    
+}
+.btnb:hover{
+    color: red;
+    border-color: red;
+}
+.btnc{
+    float: left;
+    position: absolute;
+    color:  rgb(167, 165, 165);
+    border: 1px  rgb(167, 165, 165) solid;
+    width: 80px;
+    height: 37px;
+    margin-top: -200px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: 240px;
+    cursor: pointer;
+    
+}
+.btnc:hover{
+    color: red;
+    border-color: red;
+}
+.exclbj{
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    float: left;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 230px;
+}
+.ant-table-pagination-right{
+    float: left;
+}

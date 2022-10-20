@@ -1,0 +1,18 @@
+.content-container {
+    width: 100%;
+    background-color: #F7F7F7;
+    .info-box {
+        background-color: rgba(255, 255, 255, 0.938);
+        border-radius: 5px;
+        table {
+            border-color: #efefef;
+            border-right: none;
+            td {
+                font-size: 14px;
+                width: 350px;
+                height: 40px;
+                padding-left: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.cre-content-container {
+    background-color: white;
+    .title-box {
+        padding: 10px 20px;
+        overflow: hidden;
+        background-color: #efefef;
+        margin-bottom: 24px;
+        .title {
+            font-size: 14px;
+            line-height: 30px;
+            float: left;
+        }
+        .opera-box {
+            float: right;
+            Button {
+                font-size: 14px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .form-box {
+        Button {
+            margin-right: 5px;
+        }
+        .ant-form-item-control-input-content .style-box {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .ant-form-item-control-input-content span {
+            margin-left: 5px;
+        }
+        .limit-box  {
+            position: relative;
+            .ant-radio-group {
+                float: left;
+            }
+            .input-box {
+                position: absolute;
+                right: -170px;
+                top: -5px;
+                display: flex;
+                flex-wrap: nowrap;
+            }
+        }
+        .flex-box {
+            display: flex;
+        }
+    }
+    .upload-pic {
+        padding-left: 20px ;
+        .pic-box {
+            
+        }
+    }
+}

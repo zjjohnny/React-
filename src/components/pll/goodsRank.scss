@@ -1,0 +1,54 @@
+.goodsRank{
+    margin-top: 20px;
+    background-color: white;
+    height: 410px;
+
+    .goodsRank-title{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid lightgray;
+
+        .timeSelect>span{
+            margin-right: 10px;
+        }
+        .timeSelect:nth-child(1){
+            color: red;
+        }
+    }
+    .goodsRank-content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        .goodsRank-contentItem{
+            margin: 5px 16px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            .contentItem-num{
+                display: inline-block;
+                margin-right: 30px;
+                text-align: center;
+                width: 20px;
+                height: 20px;
+                line-height: 20px;
+                border-radius: 10px;
+                background-color: lightgray;
+                // font-weight: bold;
+            }
+            .color1{
+                background-color: red;
+                color: white;
+            }
+            .color2{
+                background-color: rgb(250, 93, 93);
+                color: white;
+            }
+            .color3{
+                background-color: rgb(247, 149, 149);
+                color: white;
+            }
+        }
+    }
+    
+}

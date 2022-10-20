@@ -1,0 +1,18 @@
+.ch-content-container {
+    width: 1120px;
+    background-color: #F7F7F7;
+    .info-box {
+        background-color: #fff;
+        border-radius: 5px;
+        table {
+            border-color: #efefef;
+            border-right: none;
+            td {
+                font-size: 14px;
+                width: 330px;
+                height: 40px;
+                padding-left: 20px;
+            }
+        }
+    }
+}

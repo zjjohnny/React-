@@ -1,0 +1,72 @@
+.loginbox {
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+}
+
+.loginboxleft {
+    height: 100%;
+    width: 75%;
+    background-image: url('../../../../public/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.loginboxleft>div {
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    text-align: left;
+}
+
+.loginboxleft>div>p {
+    font-style: normal;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.loginboxleft>div>span {
+    font-size: 25px;
+    letter-spacing: 20px;
+    color: #FFFFFF;
+}
+
+.loginboxrigth {
+    width: 25%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginboxleftbox {
+    height: 50%;
+    width: 80%;
+}
+
+.loginboxleftbox>P {
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+}
+
+.loginboxleftbox>span {
+    font-style: normal;
+    color: #999999;
+}
+
+.loginboxleftbox>div {
+    margin: 30px auto;
+}
+
+.submitbtn {
+    /* width: 368px; */
+    width: 80%;
+    height: 40px;
+    background: inherit;
+    background-color: rgba(255, 3, 0, 1);
+    border: none;
+    border-radius: 2px;
+}

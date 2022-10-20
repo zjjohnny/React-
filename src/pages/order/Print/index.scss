@@ -1,0 +1,58 @@
+.container-OrderDetails {
+    width: 100%;
+    height: 100%;
+    // background-color: white;
+}
+.container1 {
+  width: 100%;
+    margin: 20px;
+  // height: 100%;
+  background-color: white;
+  p {
+    height: 46px;
+    // margin: 20px;
+    // padding:20px 20px 0px 0px;
+    padding:10px;
+    background-color: rgb(246, 246, 246)
+  };
+  .dingdan {
+    width: 40%;
+    display: inline-block;
+    text-align: justify; 
+
+    .dingdan div {
+      display: inline-block; 
+      // display: flex;
+      text-align: center; 
+      // padding: 10px;
+      // margin: 10px;
+    }
+  }
+  .dingdan2 {
+    position: relative;
+    width: 350px;
+    margin: 20px 20px 0px 20px ;
+
+  }
+
+}
+
+  
+  .zhuangtai1 {
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+  } 
+  // .jichu { 
+  //   // margin: 20px;
+
+  // }
+  .Descriptions1 {
+    // margin: 20px;
+    padding: 20px;
+    // left: 20px
+  };
+
+  // .xiangqing {
+  //   margin: 20px;
+  // }

@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #F7F7F7;
+}
+
+.com-conrtent-contatner {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0 0 10px;
+    border-radius: 5px;
+
+    .first-line {
+        display: flex;
+
+        .com-search-box {
+            width: 280px;
+            padding: 5px 10px;
+            font-size: 14px;
+            color: #333333;
+            border: 1px solid #E4E4E4;
+            border-radius: 2px;
+            margin-right: 20px;
+
+            input,
+            select {
+                border: none;
+                margin-left: 10px;
+                width: 180px;
+            }
+        }
+    }
+
+    .second-line {
+        margin-top: 10px;
+
+        button {
+            font-size: 14px;
+            margin-right: 5px;
+        }
+    }
+}
+
+
+.com-tabs-box {
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    .com-table-box {
+        background-color: white;
+        border-radius: 5px;
+    
+        .footer {
+            position: relative;
+            margin-top: 20px;
+    
+            .totalCount {
+                position: absolute;
+                font-size: 14px;
+                color: #999999;
+                right: 0px;
+                bottom: 0px;
+            }
+        }
+    
+        .ant-table-tbody>tr>td {
+            padding: 5px 16px;
+        }
+    }
+}

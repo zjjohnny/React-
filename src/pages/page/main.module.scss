@@ -1,0 +1,19 @@
+.menu::-webkit-scrollbar {
+  /* 纵向滚动条的宽 */
+  width: 8px;
+  /* 横向滚动条的高 */
+  height: 8px;
+  /* border: 2px solid red; */
+  background-color: pink;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(148, 70, 70);
+  background-clip: padding-box;
+  border: 1px solid transparent;
+}
+
+.menu::-webkit-scrollbar-thumb:hover {
+  background-clip: border-box;
+}
